@@ -13,15 +13,13 @@ const getAllProducts = async (req, res, next) => {
       queryOBjects.featured = featured;
     }
 
-    // Searching Products
-
     if (name) {
       queryOBjects.name = { $regex: name, $options: "i" };
     }
 
     let apiProducts = Product.find(queryOBjects);
     if (sort) {
-      let sortValue = sort.replace(",", " ");
+      let sortValue = sort.split(",").join(" ");
       apiProducts = apiProducts.sort(sortValue);
     }
 
