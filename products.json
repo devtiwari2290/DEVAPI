@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 16",
+        "price": 90000,
+        "featured": true,
+        "company" : "apple"
+    },
+
+    {
+        "id": 2,
+        "name": "Iphone 15",
+        "price": 80000,
+        "company" : "apple"
+    },
+    
+    {
+        "id": 3,
+        "name": "watch",
+        "price": 20000,
+        "featured": true,
+        "company" : "apple"
+    },
+
+    {
+        "id": 4,
+        "name": "Vivo 15",
+        "price": 35000,
+        "company" : "vivo"
+    },
+
+    {
+        "id": 5,
+        "name": "Vivo 16",
+        "price": 40000,
+        "company" : "vivo"
+    },
+    {
+        "id": 6,
+        "name": "Realme 9 pro",
+        "price": 20000,
+        "company" : "realme"
+    },
+
+    {
+        "id": 7,
+        "name": "Realme 15 pro",
+        "price": 35000,
+        "company" : "realme"
+    },
+
+
+    {
+        "id": 8,
+        "name": "Samung S24 ultra",
+        "price": 120000,
+        "company" : "samsung"
+    },
+
+
+    {
+        "id": 9,
+        "name": "Samung S23 ultra",
+        "price": 100000,
+        "company" : "samsung"
+    },
+
+    {
+        "id": 10,
+        "name": "Samung S22 ultra",
+        "price": 80000,
+        "company" : "samsung"
+    }
+]
